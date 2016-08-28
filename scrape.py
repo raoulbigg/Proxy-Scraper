@@ -2,7 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 
 def scrape():
-    open('proxies2.txt', 'w')
     url = "http://ipaddress.com/proxy-list/"
     r = requests.get(url)
 
