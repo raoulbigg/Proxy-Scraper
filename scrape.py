@@ -1,5 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
+import re
 
 def scrape():
     url = "http://ipaddress.com/proxy-list/"
